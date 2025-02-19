@@ -15,7 +15,7 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/', async (req, res) => {
     try {
-        const response = await axios.get(base_url + '/api');
+        const response = await axios.get(base_url + '/books');
         res.render('books', { books: response.data });
     } catch (error) {
         console.error(error);
