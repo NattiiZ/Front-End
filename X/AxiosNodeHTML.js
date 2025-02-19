@@ -1,6 +1,3 @@
-//Description: Node.js HTML client
-//request: npm install express ejs axios body-parser
-
 const express = require('express');
 const axios = require('axios');
 const app = express();

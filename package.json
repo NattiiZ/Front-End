@@ -1,27 +1,25 @@
 {
-  "name": "front-end",
+  "name": "frontendwed",
   "version": "1.0.0",
-  "description": "Repository for Front-End JavaScript.",
+  "description": "Repository for Front-End",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node AxiosNodeHTML.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NattiiZ/Front-End.git"
+    "url": "git+https://github.com/satrirattt/FrontEndWED.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NattiiZ/Front-End/issues"
+    "url": "https://github.com/satrirattt/FrontEndWED/issues"
   },
-  "homepage": "https://github.com/NattiiZ/Front-End#readme",
+  "homepage": "https://github.com/satrirattt/FrontEndWED#readme",
   "dependencies": {
     "axios": "^1.7.9",
     "body-parser": "^1.20.3",
-    "dotenv": "^16.4.7",
     "ejs": "^3.1.10",
     "express": "^4.21.2",
     "http": "^0.0.1-security"
