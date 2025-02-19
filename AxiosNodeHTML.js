@@ -5,12 +5,14 @@ const express = require('express');
 const axios = require('axios');
 const app = express();
 var bodyParser = require('body-parser');
+const path = require("path");
 
 //Base URL for the API
 //const base_url = "https://api.example.com";
 const base_url = "http://localhost:5000";
 
 //Set the template engine
+app.set("views" , path.join(__dirname, "/public/views"));
 app.set('view engine', 'ejs');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false}));
@@ -86,5 +88,5 @@ app.get("/delete/:id", async (req, res) => {
 });
 
 app.listen(5500, () => {
-    console.log('Server started on port 5500');
+    console.log('Server started on http://localhost:5500');
     });

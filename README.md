@@ -1,2 +1,2 @@
-# FrontEndWED
-Repository for Front-End
+# Front-End
+Repository for Front-End JavaScript.
